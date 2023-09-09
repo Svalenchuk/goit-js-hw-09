@@ -16,3 +16,47 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.wrapper {
+  display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row; 
+    margin-bottom: 20px;
+}    
+ 
+ #datetime-picker {
+   box-sizing: border-box;
+   font-size: large;
+   font-weight: bold;
+       
+ }  
+  
+ button { 
+   font-size: large;
+ } 
+ 
+.timer {
+display: flex;
+  justify-content: center;
+  gap: 10px; 
+  flex-direction: row;
+} 
+ 
+ .field {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-right: 20px;
+    }   
+
+
+ .value { 
+   font-size: xxx-large;
+   color: red; 
+ }
+  
+ .label {
+   font-weight: bold;
+   text-transform: uppercase;
+ }
